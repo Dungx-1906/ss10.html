@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .note{
+            border: 1px solid white;
+            padding: 5px 10px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            border-radius: 5px;
+        }
+        img{
+            border-radius: 5px;
+        }
+        h1{
+            margin: 10px 0;
+        }
+        .content-img{
+            display: flex;
+            position: absolute;
+            color: rgb(254, 25, 124);
+            top: 450px;
+            left: 20px;
+            flex-direction: column;
+        }
+        .turn-the-page{
+            display: flex;
+            background-color: hsl(0, 0%, 90%);
+            justify-content: end;
+            width: 1200px;
+            height: 50px;
+            align-items: center;
+        }
+        .turn-the-page div{
+            margin: 0 50px;
+            background-color: white;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .turn-the-page button{
+            margin: 0 50px;
+            background-color: lightgray;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        .turn-the-page div:hover{
+            background-color: black;
+            color: white;
+        }
+        .turn-the-page button:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div><img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/06/anh-messi-4K.jpg" alt=""></div>
+    <div class="note">Football</div>
+    <div class="content-img">
+        <div>Agence France-Presse - 04 June 2023</div>
+        <h1>LIONEL MESSI LEAVING LIGUE 1 TEAM <br/>
+            PARIS SAINT-GERMAIN, CLUB CONFIRMS</h1>
+        <div>The EuroLeague Finals Top Scorer is the individual award for the player <br/>  
+            that gained the highest points in the EuroLeague Finals</div>
+    </div>
+    <div class="turn-the-page">
+        <button>&larr;</button>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <button>&rarr;</button>
+    </div>
+</body>
+</html>
